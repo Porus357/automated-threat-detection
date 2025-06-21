@@ -75,20 +75,7 @@ The models use 13 key features from the CICIDS2017 dataset:
 | **Deployment**    | Docker, WSL2, NVIDIA Container Toolkit   |
 | **Logging**       | Python logging (outputs to `atd.log`)   |
 
----
 
-## 📂 Project Structure
-```
-network-anomaly-detection/
-├── atd.py                # Main Flask app and ML logic
-├── DATADIR/              # CICIDS2017 CSV files
-├── iso_forest.pkl        # Saved Isolation Forest model
-├── rf_model.pkl          # Saved Random Forest model
-├── scaler.pkl            # Saved feature scaler
-├── atd.log               # Prediction and error logs
-├── Dockerfile            # Docker configuration
-├── README.md             # This file
-```
 
 ---
 
