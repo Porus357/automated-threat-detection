@@ -1,139 +1,133 @@
-# 🚨 Automated Threat Detection using ML in Python
+Network Anomaly Detection with GPU-Accelerated Machine Learning
+This project implements a network anomaly detection system using GPU-accelerated Random Forest (via RAPIDS cuML) and CPU-based Isolation Forest (via scikit-learn). It processes the CICIDS2017 dataset to classify network traffic as benign/malicious and normal/anomalous, served through a Flask API with a web dashboard for real-time predictions.
+Features
 
-**Completion Date:** April 2025  
-**Platform:** Ubuntu 20.04.6 LTS  
-**Type:** Real-time Anomaly Detection Web App using Machine Learning and Flask
+Hybrid ML Approach: Combines supervised (Random Forest) and unsupervised (Isolation Forest) learning for robust anomaly detection.
+GPU Acceleration: Leverages NVIDIA GPUs with cuML for high-performance Random Forest training and prediction.
+Web Interface: Flask-based API and dashboard for submitting network traffic data and viewing predictions.
+Scalable Deployment: Dockerized setup for easy deployment in WSL2 or Linux environments.
+Data Processing: Handles the CICIDS2017 dataset with preprocessing, SMOTE for class balancing, and feature scaling.
 
----
+Prerequisites
 
-## 🧠 Overview
+Hardware: NVIDIA GPU with CUDA support (e.g., RTX 3060).
+OS: Windows 10/11 with WSL2 or Linux (Ubuntu 20.04 recommended).
+Software:
+Docker Desktop (Windows) or Docker (Linux).
+NVIDIA drivers (465.89 or later).
+Python 3.9 (included in Docker image).
 
-This project uses machine learning to detect anomalous and potentially malicious network traffic. It combines:
 
-- **Isolation Forest** (unsupervised anomaly detection)
-- **Random Forest (cuML)** for high-accuracy classification on GPU
-- **SMOTE** to balance the training dataset
-- **Flask REST API** for backend inference
-- **Responsive UI** built with HTML/CSS/JavaScript + Chart.js
+Dataset: CICIDS2017 CSV files (place in DATADIR folder).
 
----
+Installation
+1. Set Up WSL2 (Windows Only)
 
-## ⚙️ Model Details
+Install WSL2:wsl --install
 
-### 📌 Isolation Forest
-```python
-IsolationForest(
-    contamination=0.05,
-    random_state=42,
-    n_jobs=-1
-)
-Detects outliers from network traffic
 
-Labels as malicious or benign
+Install Ubuntu 20.04 from the Microsoft Store.
+Set Ubuntu 20.04 as default:wsl --set-default Ubuntu-20.04
 
-### 📌 Random Forest (GPU - RAPIDS cuML)
-python
-Copy
-Edit
-RandomForestClassifier(
-    n_estimators=2000,
-    max_depth=150,
-    min_samples_split=5,
-    random_state=42,
-    n_streams=1
-)
-Trained on SMOTE-balanced data
 
-Predicts anomaly or normal with confidence
 
-Threshold for anomaly set at 0.06
+2. Install NVIDIA Drivers
 
-### 📥 Input Features Used
-Flow Duration
+Download and install NVIDIA drivers from nvidia.com.
+Verify GPU:nvidia-smi
 
-Total Fwd Packets / Total Backward Packets
 
-Fwd Packet Length Mean / Bwd Packet Length Mean
 
-Flow Bytes/s / Flow Packets/s
+3. Install Docker Desktop
 
-Fwd PSH Flags / Bwd PSH Flags
+Download Docker Desktop.
+Enable WSL2 backend: Settings > General > "Use the WSL 2 based engine".
+Enable WSL integration: Settings > Resources > WSL Integration > Select Ubuntu-20.04.
 
-SYN Flag Count / ACK Flag Count / URG Flag Count
+4. Install NVIDIA Container Toolkit
+In Ubuntu 20.04 terminal (wsl -d Ubuntu-20.04):
+sudo apt update && sudo apt install -y curl
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
 
-Packet Length Mean
+Test GPU:
+docker run --gpus all nvidia/cuda:11.8.0-base-ubuntu20.04 nvidia-smi
 
-## 🌐 Web App Demo
-Users enter network flow features in a form
+5. Clone the Repository
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 
-Results from both models are displayed in real time
+6. Prepare Dataset
 
-Dynamic charts visualize confidence and prediction history
+Download CICIDS2017 CSV files (listed in atd.py).
+Place them in a DATADIR folder (e.g., /mnt/c/atd/DATADIR on WSL2).
 
-## 🧪 Sample Output
-yaml
-Copy
-Edit
-Isolation Forest: benign
-Random Forest: anomaly
-Confidence: 0.91
-## 🔧 Tech Stack
-Layer	Tool / Framework
-Language	Python 3.10
-Backend	Flask
-Frontend	HTML, CSS, JS, Chart.js
-ML Models	Scikit-learn, RAPIDS cuML
-Balancing	imbalanced-learn (SMOTE)
-GPU Accel	RAPIDS cuDF + cuML
-Logging	Python logging module
+7. Build and Run Docker Container
+Create a Dockerfile:
+FROM rapidsai/rapidsai-core:23.10-cuda11.8-runtime-ubuntu20.04-py3.9
+WORKDIR /app
+RUN pip install --upgrade pip && \
+    pip install flask imblearn joblib
+COPY . /app
+EXPOSE 5000
+CMD ["python", "atd.py"]
 
-## 🧱 Project Structure
-bash
-Copy
-Edit
-automated-threat-detection/
-├── app/
-│   └── atd.py                # Main Flask backend
-├── models/
-│   ├── rf_model.pkl
-│   ├── iso_forest.pkl
-│   └── scaler.pkl
-│   
-├── docs/
-│   ├── model_architecture.md
-│   ├── prediction_flow.md
-│   └── tools_used.md
-├── requirements.txt
-├── README.md
-## ▶️ How to Run Locally
+Build:
+docker build -t anomaly-detection:latest .
 
-# Create environment
-python3 -m venv venv
-source venv/bin/activate
+Run:
+docker run --gpus all -p 5000:5000 -v /path/to/your/DATADIR:/mnt/c/atd/DATADIR anomaly-detection:latest
 
-# Install dependencies
-pip install -r requirements.txt
+Usage
 
-# Run Flask app
-python app/atd.py
-Ensure GPU is set up for cuML, RAPIDS, and NVIDIA drivers.
+Access Dashboard: Open http://localhost:5000 in a browser.
+Input Features: Enter network traffic data (e.g., Flow Duration, Total Fwd Packets).
+Get Predictions: Submit to see Isolation Forest (benign/malicious) and Random Forest (normal/anomaly) results with confidence scores.
+API Endpoint:
+POST to http://localhost:5000/predict with JSON:{
+  "Flow Duration": 100.0,
+  "Total Fwd Packets": 10.0,
+  "Total Backward Packets": 5.0,
+  "Fwd Packet Length Mean": 50.0,
+  "Bwd Packet Length Mean": 60.0,
+  "Flow Bytes/s": 1000.0,
+  "Flow Packets/s": 20.0,
+  "Fwd PSH Flags": 0.0,
+  "Bwd PSH Flags": 0.0,
+  "SYN Flag Count": 1.0,
+  "ACK Flag Count": 1.0,
+  "URG Flag Count": 0.0,
+  "Packet Length Mean": 55.0
+}
 
-## 📄 Documentation
-docs/model_architecture.md: How both models are trained
 
-docs/prediction_flow.md: Data → Prediction pipeline
+Response:{
+  "isolation_forest_result": "benign",
+  "random_forest_result": "normal",
+  "confidence": 0.03
+}
 
-docs/tools_used.md: Libraries, OS, and tools used
 
-## 🧠 Skills Demonstrated
-Machine learning model development
 
-Imbalanced dataset handling (SMOTE)
 
-GPU-accelerated ML with RAPIDS
 
-REST API design (Flask)
+Project Structure
 
-Dashboard building (HTML, CSS, Chart.js)
+atd.py: Main script with data preprocessing, model training, and Flask API.
+DATADIR/: Directory containing CICIDS2017 CSV files.
+iso_forest.pkl, rf_model.pkl, scaler.pkl: Saved models and scaler.
+atd.log: Log file for predictions and errors.
 
-Real-time prediction handling and error catching
+Notes
+
+GPU Performance: Random Forest uses cuML for 10-50x faster training on large datasets.
+Model Tuning: Adjust n_estimators, max_depth, or contamination in atd.py for better accuracy.
+Troubleshooting: Check atd.log for errors. Ensure DATADIR path is correct.
+
+Contributing
+Feel free to open issues or PRs on GitHub to enhance the project!
+License
+MIT License
