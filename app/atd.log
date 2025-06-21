@@ -1,0 +1,841 @@
+2025-03-29 14:56:19,095 - Random Forest Accuracy: 0.9803319215258088
+2025-03-29 14:56:23,860 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-29 14:56:23,860 - [33mPress CTRL+C to quit[0m
+2025-03-29 14:56:23,862 -  * Restarting with stat
+2025-03-29 14:56:33,612 -  * Debugger is active!
+2025-03-29 14:56:33,696 -  * Debugger PIN: 754-778-760
+2025-03-29 15:27:42,993 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-29 15:27:43,039 - [33mPress CTRL+C to quit[0m
+2025-03-29 15:27:43,040 -  * Restarting with stat
+2025-03-29 15:27:53,064 -  * Debugger is active!
+2025-03-29 15:27:53,112 -  * Debugger PIN: 754-778-760
+2025-03-29 15:30:01,511 - Prediction: iso=benign, rf=normal, confidence=0.9899295629395015
+2025-03-29 15:30:01,512 - 127.0.0.1 - - [29/Mar/2025 15:30:01] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:30:05,907 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-29 21:30:05,907 - [33mPress CTRL+C to quit[0m
+2025-03-29 21:30:05,909 -  * Restarting with stat
+2025-03-29 21:30:15,664 -  * Debugger is active!
+2025-03-29 21:30:15,806 -  * Debugger PIN: 136-847-924
+2025-03-29 21:30:16,045 - 127.0.0.1 - - [29/Mar/2025 21:30:16] "GET / HTTP/1.1" 200 -
+2025-03-29 21:30:16,271 - 127.0.0.1 - - [29/Mar/2025 21:30:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 21:31:04,472 - Prediction error: '<' not supported between instances of 'str' and 'int'
+2025-03-29 21:31:04,472 - 127.0.0.1 - - [29/Mar/2025 21:31:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-29 21:33:33,354 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-29 21:33:34,462 -  * Restarting with stat
+2025-03-29 21:33:54,042 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-29 21:33:54,043 - [33mPress CTRL+C to quit[0m
+2025-03-29 21:33:54,045 -  * Restarting with stat
+2025-03-29 21:34:03,163 -  * Debugger is active!
+2025-03-29 21:34:03,218 -  * Debugger PIN: 136-847-924
+2025-03-29 21:34:03,253 - 127.0.0.1 - - [29/Mar/2025 21:34:03] "GET / HTTP/1.1" 200 -
+2025-03-29 21:34:25,832 - Prediction: iso=benign, rf=normal, confidence=0.9899295629395015
+2025-03-29 21:34:25,833 - 127.0.0.1 - - [29/Mar/2025 21:34:25] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:39:20,461 -  * Detected change in '/mnt/c/atd/atd - Copy.py', reloading
+2025-03-29 21:39:21,127 -  * Restarting with stat
+2025-03-29 21:39:30,061 -  * Debugger is active!
+2025-03-29 21:39:30,112 -  * Debugger PIN: 136-847-924
+2025-03-29 21:39:46,745 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-29 21:39:47,406 -  * Restarting with stat
+2025-03-29 21:39:56,965 -  * Debugger is active!
+2025-03-29 21:39:57,027 -  * Debugger PIN: 136-847-924
+2025-03-29 21:40:21,349 - 127.0.0.1 - - [29/Mar/2025 21:40:21] "GET / HTTP/1.1" 200 -
+2025-03-29 21:41:17,383 - Prediction: iso=benign, rf=normal, confidence=0.9899295629395015
+2025-03-29 21:41:17,384 - 127.0.0.1 - - [29/Mar/2025 21:41:17] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:42:47,681 - Prediction: iso=malicious, rf=normal, confidence=0.805946590823271
+2025-03-29 21:42:47,682 - 127.0.0.1 - - [29/Mar/2025 21:42:47] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:45:29,398 - Prediction: iso=benign, rf=normal, confidence=0.9869844875659649
+2025-03-29 21:45:29,399 - 127.0.0.1 - - [29/Mar/2025 21:45:29] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:48:32,830 - Prediction: iso=malicious, rf=normal, confidence=0.9099024476081377
+2025-03-29 21:48:32,832 - 127.0.0.1 - - [29/Mar/2025 21:48:32] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:56:16,725 - Prediction: iso=malicious, rf=normal, confidence=0.975538703050032
+2025-03-29 21:56:16,727 - 127.0.0.1 - - [29/Mar/2025 21:56:16] "POST /predict HTTP/1.1" 200 -
+2025-03-29 21:57:40,037 - Prediction: iso=malicious, rf=normal, confidence=0.816446590823271
+2025-03-29 21:57:40,038 - 127.0.0.1 - - [29/Mar/2025 21:57:40] "POST /predict HTTP/1.1" 200 -
+2025-03-29 22:33:40,105 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-29 22:33:40,106 - [33mPress CTRL+C to quit[0m
+2025-03-29 22:33:40,107 -  * Restarting with stat
+2025-03-29 22:33:48,386 -  * Debugger is active!
+2025-03-29 22:33:48,440 -  * Debugger PIN: 136-847-924
+2025-03-29 22:35:42,485 - Prediction: iso=malicious, rf=normal, confidence=0.816446590823271
+2025-03-29 22:35:42,486 - 127.0.0.1 - - [29/Mar/2025 22:35:42] "POST /predict HTTP/1.1" 200 -
+2025-03-30 14:38:23,984 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 14:38:23,985 - [33mPress CTRL+C to quit[0m
+2025-03-30 14:38:23,987 -  * Restarting with stat
+2025-03-30 14:38:32,316 -  * Debugger is active!
+2025-03-30 14:38:32,465 -  * Debugger PIN: 122-061-293
+2025-03-30 14:38:46,563 - 127.0.0.1 - - [30/Mar/2025 14:38:46] "GET / HTTP/1.1" 200 -
+2025-03-30 14:38:47,012 - 127.0.0.1 - - [30/Mar/2025 14:38:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-30 15:07:04,576 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-30 15:07:05,778 -  * Restarting with stat
+2025-03-30 15:28:48,510 - Random Forest Accuracy: 0.9803319215258088
+2025-03-30 15:28:53,115 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 15:28:53,115 - [33mPress CTRL+C to quit[0m
+2025-03-30 15:28:53,119 -  * Restarting with stat
+2025-03-30 15:29:03,754 -  * Debugger is active!
+2025-03-30 15:29:03,963 -  * Debugger PIN: 524-040-664
+2025-03-30 16:00:13,651 - 127.0.0.1 - - [30/Mar/2025 16:00:13] "GET / HTTP/1.1" 200 -
+2025-03-30 16:00:15,138 - 127.0.0.1 - - [30/Mar/2025 16:00:15] "GET / HTTP/1.1" 200 -
+2025-03-30 16:00:15,907 - 127.0.0.1 - - [30/Mar/2025 16:00:15] "GET / HTTP/1.1" 200 -
+2025-03-30 16:01:10,191 - Raw RF prediction: 0, Proba: 0    0.98993
+Name: 0, dtype: float64, Result: iso=benign, rf=normal, confidence=0.9899295629395015
+2025-03-30 16:01:10,192 - 127.0.0.1 - - [30/Mar/2025 16:01:10] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:01:54,590 - Raw RF prediction: 0, Proba: 0    0.805947
+Name: 0, dtype: float64, Result: iso=malicious, rf=normal, confidence=0.805946590823271
+2025-03-30 16:01:54,591 - 127.0.0.1 - - [30/Mar/2025 16:01:54] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:02:46,208 - Raw RF prediction: 0, Proba: 0    0.986984
+Name: 0, dtype: float64, Result: iso=benign, rf=normal, confidence=0.9869844875659649
+2025-03-30 16:02:46,208 - 127.0.0.1 - - [30/Mar/2025 16:02:46] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:03:44,521 - Raw RF prediction: 0, Proba: 0    0.919113
+Name: 0, dtype: float64, Result: iso=malicious, rf=normal, confidence=0.9191134492501738
+2025-03-30 16:03:44,521 - 127.0.0.1 - - [30/Mar/2025 16:03:44] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:04:29,444 - Raw RF prediction: 0, Proba: 0    0.938317
+Name: 0, dtype: float64, Result: iso=malicious, rf=normal, confidence=0.9383167902403873
+2025-03-30 16:04:29,445 - 127.0.0.1 - - [30/Mar/2025 16:04:29] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:05:20,114 - Raw RF prediction: 0, Proba: 0    0.816447
+Name: 0, dtype: float64, Result: iso=malicious, rf=normal, confidence=0.816446590823271
+2025-03-30 16:05:20,115 - 127.0.0.1 - - [30/Mar/2025 16:05:20] "POST /predict HTTP/1.1" 200 -
+2025-03-30 16:13:25,676 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-30 16:13:27,472 -  * Restarting with stat
+2025-03-30 16:13:44,780 -  * Debugger is active!
+2025-03-30 16:13:45,044 -  * Debugger PIN: 524-040-664
+2025-03-30 16:54:27,352 - Random Forest Accuracy: 0.9803319215258088
+2025-03-30 16:54:31,345 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 16:54:31,345 - [33mPress CTRL+C to quit[0m
+2025-03-30 16:54:31,348 -  * Restarting with stat
+2025-03-30 16:54:41,427 -  * Debugger is active!
+2025-03-30 16:54:41,516 -  * Debugger PIN: 524-040-664
+2025-03-30 17:01:54,520 - Prediction error: 1
+2025-03-30 17:01:54,521 - 127.0.0.1 - - [30/Mar/2025 17:01:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:01:56,932 - Prediction error: 1
+2025-03-30 17:01:56,933 - 127.0.0.1 - - [30/Mar/2025 17:01:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:01:59,098 - 127.0.0.1 - - [30/Mar/2025 17:01:59] "GET / HTTP/1.1" 200 -
+2025-03-30 17:02:00,129 - 127.0.0.1 - - [30/Mar/2025 17:02:00] "GET / HTTP/1.1" 200 -
+2025-03-30 17:03:23,546 - Prediction error: 1
+2025-03-30 17:03:23,547 - 127.0.0.1 - - [30/Mar/2025 17:03:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:04:04,974 - Prediction error: 1
+2025-03-30 17:04:04,974 - 127.0.0.1 - - [30/Mar/2025 17:04:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:04:20,441 - Prediction error: 1
+2025-03-30 17:04:20,442 - 127.0.0.1 - - [30/Mar/2025 17:04:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:08:56,734 - 127.0.0.1 - - [30/Mar/2025 17:08:56] "GET / HTTP/1.1" 200 -
+2025-03-30 17:09:30,067 - Prediction error: 1
+2025-03-30 17:09:30,068 - 127.0.0.1 - - [30/Mar/2025 17:09:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:10:07,927 - Prediction error: 1
+2025-03-30 17:10:07,928 - 127.0.0.1 - - [30/Mar/2025 17:10:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 17:31:18,120 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 17:31:18,121 - [33mPress CTRL+C to quit[0m
+2025-03-30 17:31:18,123 -  * Restarting with stat
+2025-03-30 17:31:27,003 -  * Debugger is active!
+2025-03-30 17:31:27,056 -  * Debugger PIN: 524-040-664
+2025-03-30 17:33:57,870 - Raw RF prediction: 0, Proba: 0    0.92481
+Name: 0, dtype: float32, Result: iso=malicious, rf=normal, confidence=0.9248095154762268
+2025-03-30 17:33:57,871 - 127.0.0.1 - - [30/Mar/2025 17:33:57] "POST /predict HTTP/1.1" 200 -
+2025-03-30 17:36:17,914 - Raw RF prediction: 0, Proba: 0    0.817842
+Name: 0, dtype: float32, Result: iso=malicious, rf=normal, confidence=0.8178419470787048
+2025-03-30 17:36:17,915 - 127.0.0.1 - - [30/Mar/2025 17:36:17] "POST /predict HTTP/1.1" 200 -
+2025-03-30 17:42:54,448 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-30 17:42:55,501 -  * Restarting with stat
+2025-03-30 17:43:07,949 -  * Debugger is active!
+2025-03-30 17:43:08,014 -  * Debugger PIN: 524-040-664
+2025-03-30 17:43:57,663 - Raw RF prediction: 0, Proba: 0    0.817842
+Name: 0, dtype: float32, Result: iso=malicious, rf=normal, confidence=0.8178419470787048
+2025-03-30 17:43:57,663 - 127.0.0.1 - - [30/Mar/2025 17:43:57] "POST /predict HTTP/1.1" 200 -
+2025-03-30 17:51:58,223 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-30 17:51:59,003 -  * Restarting with stat
+2025-03-30 17:52:40,013 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 17:52:40,013 - [33mPress CTRL+C to quit[0m
+2025-03-30 17:52:40,015 -  * Restarting with stat
+2025-03-30 17:52:47,830 -  * Debugger is active!
+2025-03-30 17:52:47,881 -  * Debugger PIN: 524-040-664
+2025-03-30 18:00:35,655 - Random Forest Accuracy: 0.9803319215258088
+2025-03-30 18:00:35,661 - Predicted label distribution on test set: [445731 462797]
+2025-03-30 18:00:40,501 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 18:00:40,501 - [33mPress CTRL+C to quit[0m
+2025-03-30 18:00:40,508 -  * Restarting with stat
+2025-03-30 18:00:50,746 -  * Debugger is active!
+2025-03-30 18:00:50,810 -  * Debugger PIN: 524-040-664
+2025-03-30 18:04:23,578 - Prediction error: 1
+Traceback (most recent call last):
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 304, in _loc_to_iloc
+    found_index = self._frame.index._values.find_first_value(
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/column/numerical.py", line 612, in find_first_value
+    return self._find_value(value, closest, cudautils.find_first, "gt")
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/column/numerical.py", line 596, in _find_value
+    raise ValueError("value not found")
+ValueError: value not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 261, in __getitem__
+    arg = self._loc_to_iloc(arg)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 309, in _loc_to_iloc
+    raise KeyError("label scalar is out of bound")
+KeyError: 'label scalar is out of bound'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/atd/atd.py", line 443, in predict
+    confidence = float(proba[1])  # Probability of anomaly (class 1)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/nvtx/nvtx.py", line 116, in inner
+    result = func(*args, **kwargs)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 1259, in __getitem__
+    return self.loc[arg]
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/nvtx/nvtx.py", line 116, in inner
+    result = func(*args, **kwargs)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 263, in __getitem__
+    raise KeyError(arg)
+KeyError: 1
+
+2025-03-30 18:04:23,579 - 127.0.0.1 - - [30/Mar/2025 18:04:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 18:04:37,094 - Prediction error: 1
+Traceback (most recent call last):
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 304, in _loc_to_iloc
+    found_index = self._frame.index._values.find_first_value(
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/column/numerical.py", line 612, in find_first_value
+    return self._find_value(value, closest, cudautils.find_first, "gt")
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/column/numerical.py", line 596, in _find_value
+    raise ValueError("value not found")
+ValueError: value not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 261, in __getitem__
+    arg = self._loc_to_iloc(arg)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 309, in _loc_to_iloc
+    raise KeyError("label scalar is out of bound")
+KeyError: 'label scalar is out of bound'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/atd/atd.py", line 443, in predict
+    confidence = float(proba[1])  # Probability of anomaly (class 1)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/nvtx/nvtx.py", line 116, in inner
+    result = func(*args, **kwargs)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 1259, in __getitem__
+    return self.loc[arg]
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/nvtx/nvtx.py", line 116, in inner
+    result = func(*args, **kwargs)
+  File "/home/purus/miniconda3/envs/rapids_env/lib/python3.8/site-packages/cudf/core/series.py", line 263, in __getitem__
+    raise KeyError(arg)
+KeyError: 1
+
+2025-03-30 18:04:37,095 - 127.0.0.1 - - [30/Mar/2025 18:04:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-30 18:25:01,857 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 18:25:01,857 - [33mPress CTRL+C to quit[0m
+2025-03-30 18:25:01,858 -  * Restarting with stat
+2025-03-30 18:25:10,732 -  * Debugger is active!
+2025-03-30 18:25:10,785 -  * Debugger PIN: 524-040-664
+2025-03-30 18:25:11,190 - Raw RF prediction: 0, Proba:           0         1
+0  0.817842  0.182158, Result: iso=malicious, rf=normal, confidence=0.18215814232826233
+2025-03-30 18:25:11,191 - 127.0.0.1 - - [30/Mar/2025 18:25:11] "POST /predict HTTP/1.1" 200 -
+2025-03-30 18:32:04,113 - Raw RF prediction: 0, Proba:           0         1
+0  0.669509  0.330491, Result: iso=benign, rf=normal, confidence=0.3304910361766815
+2025-03-30 18:32:04,114 - 127.0.0.1 - - [30/Mar/2025 18:32:04] "POST /predict HTTP/1.1" 200 -
+2025-03-30 18:35:38,581 - Raw RF prediction: 0, Proba:          0         1
+0  0.92481  0.075191, Result: iso=malicious, rf=normal, confidence=0.07519052177667618
+2025-03-30 18:35:38,582 - 127.0.0.1 - - [30/Mar/2025 18:35:38] "POST /predict HTTP/1.1" 200 -
+2025-03-30 18:44:14,494 - Random Forest Accuracy: 0.9803319215258088
+2025-03-30 18:44:14,502 - Predicted label distribution on test set: [445731 462797]
+2025-03-30 18:44:19,236 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 18:44:19,236 - [33mPress CTRL+C to quit[0m
+2025-03-30 18:44:19,240 -  * Restarting with stat
+2025-03-30 18:44:36,640 -  * Debugger is active!
+2025-03-30 18:44:37,133 -  * Debugger PIN: 524-040-664
+2025-03-30 19:08:56,225 - 127.0.0.1 - - [30/Mar/2025 19:08:56] "GET / HTTP/1.1" 200 -
+2025-03-30 19:10:05,620 - Raw RF prediction: 0, Proba:           0         1
+0  0.817842  0.182158, Result: iso=malicious, rf=normal, confidence=0.18215814232826233
+2025-03-30 19:10:05,621 - 127.0.0.1 - - [30/Mar/2025 19:10:05] "POST /predict HTTP/1.1" 200 -
+2025-03-30 19:10:25,827 - Raw RF prediction: 0, Proba:           0         1
+0  0.817842  0.182158, Result: iso=malicious, rf=normal, confidence=0.18215814232826233
+2025-03-30 19:10:25,828 - 127.0.0.1 - - [30/Mar/2025 19:10:25] "POST /predict HTTP/1.1" 200 -
+2025-03-30 19:40:20,396 - Random Forest Accuracy: 0.9803462303858549
+2025-03-30 19:40:20,402 - Predicted label distribution on test set: [445746 462782]
+2025-03-30 19:40:26,795 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 19:40:26,795 - [33mPress CTRL+C to quit[0m
+2025-03-30 19:40:26,799 -  * Restarting with stat
+2025-03-30 19:40:38,148 -  * Debugger is active!
+2025-03-30 19:40:38,320 -  * Debugger PIN: 524-040-664
+2025-03-30 19:40:55,346 - Raw RF prediction: 0, Proba:           0         1
+0  0.818713  0.181287, Result: iso=malicious, rf=normal, confidence=0.18128661811351776
+2025-03-30 19:40:55,347 - 127.0.0.1 - - [30/Mar/2025 19:40:55] "POST /predict HTTP/1.1" 200 -
+2025-03-30 19:46:11,526 - Raw RF prediction: 0, Proba:           0         1
+0  0.814064  0.185936, Result: iso=malicious, rf=normal, confidence=0.18593569099903107
+2025-03-30 19:46:11,527 - 127.0.0.1 - - [30/Mar/2025 19:46:11] "POST /predict HTTP/1.1" 200 -
+2025-03-30 19:47:07,747 - Raw RF prediction: 0, Proba:           0         1
+0  0.984642  0.015358, Result: iso=benign, rf=normal, confidence=0.015358204953372478
+2025-03-30 19:47:07,748 - 127.0.0.1 - - [30/Mar/2025 19:47:07] "POST /predict HTTP/1.1" 200 -
+2025-03-30 20:16:01,175 - Random Forest Accuracy: 0.9803462303858549
+2025-03-30 20:16:01,191 - Predicted label distribution on test set: [445746 462782]
+2025-03-30 20:16:06,317 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 20:16:06,317 - [33mPress CTRL+C to quit[0m
+2025-03-30 20:16:06,319 -  * Restarting with stat
+2025-03-30 20:16:18,307 -  * Debugger is active!
+2025-03-30 20:16:18,378 -  * Debugger PIN: 524-040-664
+2025-03-30 20:18:26,811 - Raw features: {'Flow Duration': 10000.0, 'Total Fwd Packets': 5.0, 'Total Backward Packets': 7.0, 'Fwd Packet Length Mean': 100.0, 'Bwd Packet Length Mean': 200.0, 'Flow Bytes/s': 1000.0, 'Flow Packets/s': 50.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 2.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 150.0}
+2025-03-30 20:18:26,813 - Scaled features: [[-4.3931550e-01 -5.8248877e-03 -3.4111438e-03  2.2421968e-01
+  -1.7549141e-01 -5.7467636e-02 -2.7830169e-01 -2.2057486e-01
+   0.0000000e+00  4.5336084e+00  3.6257775e+00 -3.2367301e-01
+  -7.2361834e-02]]
+2025-03-30 20:18:26,828 - RF Proba:           0         1
+0  0.984642  0.015358, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.015358204953372478
+2025-03-30 20:18:26,829 - 127.0.0.1 - - [30/Mar/2025 20:18:26] "POST /predict HTTP/1.1" 200 -
+2025-03-30 20:24:00,366 - Raw features: {'Flow Duration': 1000000.0, 'Total Fwd Packets': 9999.0, 'Total Backward Packets': 9999.0, 'Fwd Packet Length Mean': 65535.0, 'Bwd Packet Length Mean': 65535.0, 'Flow Bytes/s': 9999999.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 500.0, 'ACK Flag Count': 600.0, 'URG Flag Count': 10.0, 'Packet Length Mean': 65535.0}
+2025-03-30 20:24:00,367 - Scaled features: [[-4.0991029e-01  1.3318575e+01  1.0009681e+01  3.5169778e+02
+   1.0772967e+02  3.2799655e-01 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  2.3768711e+03  1.2906406e+03  3.3808437e+01
+   2.1388486e+02]]
+2025-03-30 20:24:00,372 - RF Proba:           0         1
+0  0.818713  0.181287, Prediction: 0, Result: iso=malicious, rf=normal, confidence=0.18128661811351776
+2025-03-30 20:24:00,373 - 127.0.0.1 - - [30/Mar/2025 20:24:00] "POST /predict HTTP/1.1" 200 -
+2025-03-30 22:03:31,814 - Random Forest Accuracy: 0.9803330222073507
+2025-03-30 22:03:31,821 - Predicted label distribution on test set: [445762 462766]
+2025-03-30 22:03:38,548 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 22:03:38,548 - [33mPress CTRL+C to quit[0m
+2025-03-30 22:03:38,552 -  * Restarting with stat
+2025-03-30 22:03:57,904 -  * Debugger is active!
+2025-03-30 22:03:57,971 -  * Debugger PIN: 524-040-664
+2025-03-30 22:08:39,927 - 127.0.0.1 - - [30/Mar/2025 22:08:39] "GET / HTTP/1.1" 200 -
+2025-03-30 22:11:36,425 - Raw features: {'Flow Duration': 1000000.0, 'Total Fwd Packets': 9999.0, 'Total Backward Packets': 9999.0, 'Fwd Packet Length Mean': 65535.0, 'Bwd Packet Length Mean': 65535.0, 'Flow Bytes/s': 9999999.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 500.0, 'ACK Flag Count': 600.0, 'URG Flag Count': 10.0, 'Packet Length Mean': 65535.0}
+2025-03-30 22:11:36,426 - Scaled features: [[-4.0991029e-01  1.3318575e+01  1.0009681e+01  3.5169778e+02
+   1.0772967e+02  3.2799655e-01 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  2.3768711e+03  1.2906406e+03  3.3808437e+01
+   2.1388486e+02]]
+2025-03-30 22:11:36,438 - RF Proba:           0         1
+0  0.815916  0.184084, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.18408381938934326
+2025-03-30 22:11:36,439 - 127.0.0.1 - - [30/Mar/2025 22:11:36] "POST /predict HTTP/1.1" 200 -
+2025-03-30 22:30:26,442 - Raw features: {'Flow Duration': 500000.0, 'Total Fwd Packets': 500.0, 'Total Backward Packets': 600.0, 'Fwd Packet Length Mean': 500.0, 'Bwd Packet Length Mean': 700.0, 'Flow Bytes/s': 20000.0, 'Flow Packets/s': 200.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 100.0, 'ACK Flag Count': 150.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-03-30 22:30:26,443 - Scaled features: [[-4.2476141e-01  6.5412891e-01  5.9084070e-01  2.3727553e+00
+   6.5029234e-01 -5.6735180e-02 -2.7771211e-01  4.5336084e+00
+   1.0000000e+00  4.7519775e+02  3.2215121e+02  6.5027490e+00
+   9.0931845e-01]]
+2025-03-30 22:30:26,451 - RF Proba:           0         1
+0  0.912187  0.087813, Prediction: 0, Result: iso=malicious, rf=normal, confidence=0.0878133699297905
+2025-03-30 22:30:26,451 - 127.0.0.1 - - [30/Mar/2025 22:30:26] "POST /predict HTTP/1.1" 200 -
+2025-03-30 22:31:40,500 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 1.0, 'Packet Length Mean': 15000.0}
+2025-03-30 22:31:40,501 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  3.0895379e+00
+   4.8520813e+01]]
+2025-03-30 22:31:40,507 - RF Proba:           0         1
+0  0.807669  0.192331, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.19233092665672302
+2025-03-30 22:31:40,508 - 127.0.0.1 - - [30/Mar/2025 22:31:40] "POST /predict HTTP/1.1" 200 -
+2025-03-30 22:40:06,036 - Raw features: {'Flow Duration': 10000.0, 'Total Fwd Packets': 5.0, 'Total Backward Packets': 7.0, 'Fwd Packet Length Mean': 100.0, 'Bwd Packet Length Mean': 200.0, 'Flow Bytes/s': 1000.0, 'Flow Packets/s': 50.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 2.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 150.0}
+2025-03-30 22:40:06,036 - Scaled features: [[-4.3931550e-01 -5.8248877e-03 -3.4111438e-03  2.2421968e-01
+  -1.7549141e-01 -5.7467636e-02 -2.7830169e-01 -2.2057486e-01
+   0.0000000e+00  4.5336084e+00  3.6257775e+00 -3.2367301e-01
+  -7.2361834e-02]]
+2025-03-30 22:40:06,043 - RF Proba:           0         1
+0  0.987348  0.012652, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.012651698663830757
+2025-03-30 22:40:06,043 - 127.0.0.1 - - [30/Mar/2025 22:40:06] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:06:31,123 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-30 23:06:32,307 -  * Restarting with stat
+2025-03-30 23:22:17,568 - Random Forest Accuracy: 0.9803330222073507
+2025-03-30 23:22:17,576 - Predicted label distribution on test set: [445762 462766]
+2025-03-30 23:22:23,177 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-30 23:22:23,177 - [33mPress CTRL+C to quit[0m
+2025-03-30 23:22:23,181 -  * Restarting with stat
+2025-03-30 23:22:34,473 -  * Debugger is active!
+2025-03-30 23:22:34,553 -  * Debugger PIN: 524-040-664
+2025-03-30 23:23:45,289 - Raw features: {'Flow Duration': 10000.0, 'Total Fwd Packets': 5.0, 'Total Backward Packets': 7.0, 'Fwd Packet Length Mean': 100.0, 'Bwd Packet Length Mean': 200.0, 'Flow Bytes/s': 1000.0, 'Flow Packets/s': 50.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 2.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 150.0}
+2025-03-30 23:23:45,290 - Scaled features: [[-4.3931550e-01 -5.8248877e-03 -3.4111438e-03  2.2421968e-01
+  -1.7549141e-01 -5.7467636e-02 -2.7830169e-01 -2.2057486e-01
+   0.0000000e+00  4.5336084e+00  3.6257775e+00 -3.2367301e-01
+  -7.2361834e-02]]
+2025-03-30 23:23:45,305 - RF Proba:           0         1
+0  0.987348  0.012652, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.012651698663830757
+2025-03-30 23:23:45,305 - 127.0.0.1 - - [30/Mar/2025 23:23:45] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:24:38,335 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 1.0, 'Packet Length Mean': 15000.0}
+2025-03-30 23:24:38,335 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  3.0895379e+00
+   4.8520813e+01]]
+2025-03-30 23:24:38,343 - RF Proba:           0         1
+0  0.807669  0.192331, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.19233092665672302
+2025-03-30 23:24:38,344 - 127.0.0.1 - - [30/Mar/2025 23:24:38] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:25:59,010 - Raw features: {'Flow Duration': 500000.0, 'Total Fwd Packets': 500.0, 'Total Backward Packets': 600.0, 'Fwd Packet Length Mean': 500.0, 'Bwd Packet Length Mean': 700.0, 'Flow Bytes/s': 20000.0, 'Flow Packets/s': 200.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 100.0, 'ACK Flag Count': 150.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-03-30 23:25:59,011 - Scaled features: [[-4.2476141e-01  6.5412891e-01  5.9084070e-01  2.3727553e+00
+   6.5029234e-01 -5.6735180e-02 -2.7771211e-01  4.5336084e+00
+   1.0000000e+00  4.7519775e+02  3.2215121e+02  6.5027490e+00
+   9.0931845e-01]]
+2025-03-30 23:25:59,017 - RF Proba:           0         1
+0  0.912187  0.087813, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.0878133699297905
+2025-03-30 23:25:59,018 - 127.0.0.1 - - [30/Mar/2025 23:25:59] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:27:20,896 - Raw features: {'Flow Duration': 1000000.0, 'Total Fwd Packets': 9999.0, 'Total Backward Packets': 9999.0, 'Fwd Packet Length Mean': 65535.0, 'Bwd Packet Length Mean': 65535.0, 'Flow Bytes/s': 9999999.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 500.0, 'ACK Flag Count': 600.0, 'URG Flag Count': 10.0, 'Packet Length Mean': 65535.0}
+2025-03-30 23:27:20,897 - Scaled features: [[-4.0991029e-01  1.3318575e+01  1.0009681e+01  3.5169778e+02
+   1.0772967e+02  3.2799655e-01 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  2.3768711e+03  1.2906406e+03  3.3808437e+01
+   2.1388486e+02]]
+2025-03-30 23:27:20,904 - RF Proba:           0         1
+0  0.815916  0.184084, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.18408381938934326
+2025-03-30 23:27:20,904 - 127.0.0.1 - - [30/Mar/2025 23:27:20] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:35:04,076 - Raw features: {'Flow Duration': 250000.0, 'Total Fwd Packets': 250.0, 'Total Backward Packets': 300.0, 'Fwd Packet Length Mean': 300.0, 'Bwd Packet Length Mean': 400.0, 'Flow Bytes/s': 10000.0, 'Flow Packets/s': 100.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 50.0, 'ACK Flag Count': 75.0, 'URG Flag Count': 1.0, 'Packet Length Mean': 350.0}
+2025-03-30 23:35:04,076 - Scaled features: [[-4.3218696e-01  3.2081890e-01  2.9020736e-01  1.2984875e+00
+   1.5482208e-01 -5.7120681e-02 -2.7810517e-01  4.5336084e+00
+   0.0000000e+00  2.3748859e+02  1.6073628e+02  3.0895379e+00
+   5.8209169e-01]]
+2025-03-30 23:35:04,083 - RF Proba:           0         1
+0  0.858907  0.141093, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.14109280705451965
+2025-03-30 23:35:04,084 - 127.0.0.1 - - [30/Mar/2025 23:35:04] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:36:02,775 - Raw features: {'Flow Duration': 100000.0, 'Total Fwd Packets': 1000.0, 'Total Backward Packets': 10.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 10.0, 'Flow Bytes/s': 5000.0, 'Flow Packets/s': 1000.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 900.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 45.0}
+2025-03-30 23:36:02,776 - Scaled features: [[-4.3664229e-01  1.3207488e+00 -4.0481106e-04 -4.4347268e-02
+  -4.8928919e-01 -5.7313435e-02 -2.7456763e-01 -2.2057486e-01
+   0.0000000e+00  4.2785444e+03  1.0082374e+01 -3.2367301e-01
+  -4.1594994e-01]]
+2025-03-30 23:36:02,784 - RF Proba:           0         1
+0  0.877317  0.122683, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.12268255650997162
+2025-03-30 23:36:02,784 - 127.0.0.1 - - [30/Mar/2025 23:36:02] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:45:58,299 - Raw features: {'Flow Duration': 10000.0, 'Total Fwd Packets': 5.0, 'Total Backward Packets': 7.0, 'Fwd Packet Length Mean': 100.0, 'Bwd Packet Length Mean': 200.0, 'Flow Bytes/s': 1000.0, 'Flow Packets/s': 50.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 0.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 150.0}
+2025-03-30 23:45:58,300 - Scaled features: [[-0.4393155  -0.00582489 -0.00341114  0.22421968 -0.17549141 -0.05746764
+  -0.2783017  -0.22057486  0.         -0.22057486 -0.67862    -0.323673
+  -0.07236183]]
+2025-03-30 23:45:58,310 - RF Proba:           0         1
+0  0.985889  0.014111, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.014111312106251717
+2025-03-30 23:45:58,311 - 127.0.0.1 - - [30/Mar/2025 23:45:58] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:46:54,630 - Raw features: {'Flow Duration': 500000.0, 'Total Fwd Packets': 500.0, 'Total Backward Packets': 600.0, 'Fwd Packet Length Mean': 500.0, 'Bwd Packet Length Mean': 700.0, 'Flow Bytes/s': 20000.0, 'Flow Packets/s': 200.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 100.0, 'ACK Flag Count': 10.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 450.0}
+2025-03-30 23:46:54,631 - Scaled features: [[-4.2476141e-01  6.5412891e-01  5.9084070e-01  2.3727553e+00
+   6.5029234e-01 -5.6735180e-02 -2.7771211e-01 -2.2057486e-01
+   0.0000000e+00  4.7519775e+02  2.0843369e+01 -3.2367301e-01
+   9.0931845e-01]]
+2025-03-30 23:46:54,636 - RF Proba:           0         1
+0  0.925081  0.074919, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.07491883635520935
+2025-03-30 23:46:54,636 - 127.0.0.1 - - [30/Mar/2025 23:46:54] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:47:47,196 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 5.0, 'Packet Length Mean': 15000.0}
+2025-03-30 23:47:47,197 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  1.6742382e+01
+   4.8520813e+01]]
+2025-03-30 23:47:47,206 - RF Proba:           0         1
+0  0.807669  0.192331, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.19233092665672302
+2025-03-30 23:47:47,207 - 127.0.0.1 - - [30/Mar/2025 23:47:47] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:48:39,362 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-03-30 23:48:39,363 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-03-30 23:48:39,375 - RF Proba:           0         1
+0  0.948241  0.051759, Prediction: 1, Result: iso=benign, rf=anomaly, confidence=0.05175918713212013
+2025-03-30 23:48:39,375 - 127.0.0.1 - - [30/Mar/2025 23:48:39] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:49:44,617 - Raw features: {'Flow Duration': 1000000.0, 'Total Fwd Packets': 9999.0, 'Total Backward Packets': 9999.0, 'Fwd Packet Length Mean': 65535.0, 'Bwd Packet Length Mean': 65535.0, 'Flow Bytes/s': 9999999.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 500.0, 'ACK Flag Count': 50.0, 'URG Flag Count': 10.0, 'Packet Length Mean': 65535.0}
+2025-03-30 23:49:44,618 - Scaled features: [[-4.0991029e-01  1.3318575e+01  1.0009681e+01  3.5169778e+02
+   1.0772967e+02  3.2799655e-01 -2.5884533e-01  4.5336084e+00
+   0.0000000e+00  2.3768711e+03  1.0693131e+02  3.3808437e+01
+   2.1388486e+02]]
+2025-03-30 23:49:44,624 - RF Proba:           0         1
+0  0.815916  0.184084, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.18408381938934326
+2025-03-30 23:49:44,624 - 127.0.0.1 - - [30/Mar/2025 23:49:44] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:51:12,056 - Raw features: {'Flow Duration': 1000.0, 'Total Fwd Packets': 2.0, 'Total Backward Packets': 3.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 75.0, 'Flow Bytes/s': 100.0, 'Flow Packets/s': 10.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 1.0, 'URG Flag Count': 1.0, 'Packet Length Mean': 60.0}
+2025-03-30 23:51:12,057 - Scaled features: [[-0.43958282 -0.00982461 -0.00741959 -0.04434727 -0.38193733 -0.05750233
+  -0.27845892 -0.22057486  0.          4.5336084   1.4735787   3.0895379
+  -0.3668659 ]]
+2025-03-30 23:51:12,065 - RF Proba:           0         1
+0  0.991301  0.008699, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.008698676712810993
+2025-03-30 23:51:12,066 - 127.0.0.1 - - [30/Mar/2025 23:51:12] "POST /predict HTTP/1.1" 200 -
+2025-03-30 23:52:35,790 - Raw features: {'Flow Duration': 100000.0, 'Total Fwd Packets': 200.0, 'Total Backward Packets': 300.0, 'Fwd Packet Length Mean': 1000.0, 'Bwd Packet Length Mean': 1500.0, 'Flow Bytes/s': 500000.0, 'Flow Packets/s': 1000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 2.0, 'ACK Flag Count': 10.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 1200.0}
+2025-03-30 23:52:35,790 - Scaled features: [[-0.4366423   0.2541569   0.29020736  5.058425    1.9715464  -0.03823105
+  -0.27456763  4.5336084   1.          9.287792   20.843369   -0.323673
+   3.3635194 ]]
+2025-03-30 23:52:35,799 - RF Proba:           0         1
+0  0.961142  0.038858, Prediction: 0, Result: iso=malicious, rf=normal, confidence=0.03885767608880997
+2025-03-30 23:52:35,800 - 127.0.0.1 - - [30/Mar/2025 23:52:35] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:04:06,163 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:04:07,575 -  * Restarting with stat
+2025-03-31 00:04:21,845 -  * Debugger is active!
+2025-03-31 00:04:21,897 -  * Debugger PIN: 524-040-664
+2025-03-31 00:25:46,051 - Random Forest Accuracy: 0.9802581758624941
+2025-03-31 00:25:46,059 - Predicted label distribution on test set: [445882 462646]
+2025-03-31 00:25:53,640 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 00:25:53,641 - [33mPress CTRL+C to quit[0m
+2025-03-31 00:25:53,645 -  * Restarting with stat
+2025-03-31 00:26:14,524 -  * Debugger is active!
+2025-03-31 00:26:14,618 -  * Debugger PIN: 524-040-664
+2025-03-31 00:33:16,445 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-03-31 00:33:16,446 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-03-31 00:33:16,461 - RF Proba:           0         1
+0  0.958175  0.041825, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.04182463511824608
+2025-03-31 00:33:16,462 - 127.0.0.1 - - [31/Mar/2025 00:33:16] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:34:15,652 - Raw features: {'Flow Duration': 1000.0, 'Total Fwd Packets': 2.0, 'Total Backward Packets': 3.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 75.0, 'Flow Bytes/s': 100.0, 'Flow Packets/s': 10.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 1.0, 'URG Flag Count': 1.0, 'Packet Length Mean': 60.0}
+2025-03-31 00:34:15,652 - Scaled features: [[-0.43958282 -0.00982461 -0.00741959 -0.04434727 -0.38193733 -0.05750233
+  -0.27845892 -0.22057486  0.          4.5336084   1.4735787   3.0895379
+  -0.3668659 ]]
+2025-03-31 00:34:15,660 - RF Proba:           0         1
+0  0.991796  0.008204, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.008204380050301552
+2025-03-31 00:34:15,661 - 127.0.0.1 - - [31/Mar/2025 00:34:15] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:35:03,714 - Raw features: {'Flow Duration': 100000.0, 'Total Fwd Packets': 200.0, 'Total Backward Packets': 300.0, 'Fwd Packet Length Mean': 1000.0, 'Bwd Packet Length Mean': 1500.0, 'Flow Bytes/s': 500000.0, 'Flow Packets/s': 1000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 2.0, 'ACK Flag Count': 10.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 1200.0}
+2025-03-31 00:35:03,715 - Scaled features: [[-0.4366423   0.2541569   0.29020736  5.058425    1.9715464  -0.03823105
+  -0.27456763  4.5336084   1.          9.287792   20.843369   -0.323673
+   3.3635194 ]]
+2025-03-31 00:35:03,720 - RF Proba:           0         1
+0  0.962149  0.037851, Prediction: 0, Result: iso=malicious, rf=normal, confidence=0.037850745022296906
+2025-03-31 00:35:03,721 - 127.0.0.1 - - [31/Mar/2025 00:35:03] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:35:55,898 - Raw features: {'Flow Duration': 300000.0, 'Total Fwd Packets': 300.0, 'Total Backward Packets': 400.0, 'Fwd Packet Length Mean': 400.0, 'Bwd Packet Length Mean': 500.0, 'Flow Bytes/s': 15000.0, 'Flow Packets/s': 150.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 25.0, 'ACK Flag Count': 30.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-03-31 00:35:55,899 - Scaled features: [[-4.3070185e-01  3.8748091e-01  3.9041844e-01  1.8356214e+00
+   3.1997883e-01 -5.6927931e-02 -2.7790862e-01  4.5336084e+00
+   0.0000000e+00  1.1863400e+02  6.3887341e+01  6.5027490e+00
+   9.0931845e-01]]
+2025-03-31 00:35:55,910 - RF Proba:           0         1
+0  0.907177  0.092823, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.09282317757606506
+2025-03-31 00:35:55,911 - 127.0.0.1 - - [31/Mar/2025 00:35:55] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:36:28,094 - Raw features: {'Flow Duration': 200000.0, 'Total Fwd Packets': 2000.0, 'Total Backward Packets': 50.0, 'Fwd Packet Length Mean': 100.0, 'Bwd Packet Length Mean': 200.0, 'Flow Bytes/s': 10000.0, 'Flow Packets/s': 500.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1000.0, 'ACK Flag Count': 0.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 150.0}
+2025-03-31 00:36:28,095 - Scaled features: [[-4.3367207e-01  2.6539886e+00  3.9679628e-02  2.2421968e-01
+  -1.7549141e-01 -5.7120681e-02 -2.7653292e-01 -2.2057486e-01
+   0.0000000e+00  4.7539624e+03 -6.7861998e-01 -3.2367301e-01
+  -7.2361834e-02]]
+2025-03-31 00:36:28,100 - RF Proba:           0         1
+0  0.973445  0.026555, Prediction: 0, Result: iso=malicious, rf=normal, confidence=0.02655504085123539
+2025-03-31 00:36:28,101 - 127.0.0.1 - - [31/Mar/2025 00:36:28] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:43:21,763 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:43:23,727 -  * Restarting with stat
+2025-03-31 00:43:46,123 -  * Debugger is active!
+2025-03-31 00:43:46,268 -  * Debugger PIN: 524-040-664
+2025-03-31 00:44:02,073 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:44:02,830 -  * Restarting with stat
+2025-03-31 00:44:19,166 -  * Debugger is active!
+2025-03-31 00:44:19,238 -  * Debugger PIN: 524-040-664
+2025-03-31 00:44:34,182 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:44:35,102 -  * Restarting with stat
+2025-03-31 00:44:50,386 -  * Debugger is active!
+2025-03-31 00:44:50,460 -  * Debugger PIN: 524-040-664
+2025-03-31 00:46:36,115 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:46:37,044 -  * Restarting with stat
+2025-03-31 00:47:01,177 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 00:47:01,178 - [33mPress CTRL+C to quit[0m
+2025-03-31 00:47:01,179 -  * Restarting with stat
+2025-03-31 00:47:13,808 -  * Debugger is active!
+2025-03-31 00:47:13,888 -  * Debugger PIN: 524-040-664
+2025-03-31 00:47:13,955 - 127.0.0.1 - - [31/Mar/2025 00:47:13] "GET / HTTP/1.1" 200 -
+2025-03-31 00:47:13,958 - 127.0.0.1 - - [31/Mar/2025 00:47:13] "GET / HTTP/1.1" 200 -
+2025-03-31 00:47:51,443 - Raw features: {'Flow Duration': 100000.0, 'Total Fwd Packets': 1000.0, 'Total Backward Packets': 10.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 10.0, 'Flow Bytes/s': 5000.0, 'Flow Packets/s': 1000.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 900.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 45.0}
+2025-03-31 00:47:51,444 - Scaled features: [[-4.3664229e-01  1.3207488e+00 -4.0481106e-04 -4.4347268e-02
+  -4.8928919e-01 -5.7313435e-02 -2.7456763e-01 -2.2057486e-01
+   0.0000000e+00  4.2785444e+03  1.0082374e+01 -3.2367301e-01
+  -4.1594994e-01]]
+2025-03-31 00:47:51,457 - RF Proba:           0         1
+0  0.872079  0.127921, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.12792085111141205
+2025-03-31 00:47:51,458 - 127.0.0.1 - - [31/Mar/2025 00:47:51] "POST /predict HTTP/1.1" 200 -
+2025-03-31 00:49:38,926 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 00:49:38,927 - [33mPress CTRL+C to quit[0m
+2025-03-31 00:49:38,928 -  * Restarting with stat
+2025-03-31 00:49:51,110 -  * Debugger is active!
+2025-03-31 00:49:51,175 -  * Debugger PIN: 524-040-664
+2025-03-31 00:49:53,581 - 127.0.0.1 - - [31/Mar/2025 00:49:53] "GET / HTTP/1.1" 200 -
+2025-03-31 00:51:44,423 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:51:45,708 -  * Restarting with stat
+2025-03-31 00:52:10,793 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 00:52:10,793 - [33mPress CTRL+C to quit[0m
+2025-03-31 00:52:10,795 -  * Restarting with stat
+2025-03-31 00:52:22,183 -  * Debugger is active!
+2025-03-31 00:52:22,316 -  * Debugger PIN: 524-040-664
+2025-03-31 00:52:29,429 - 127.0.0.1 - - [31/Mar/2025 00:52:29] "GET / HTTP/1.1" 200 -
+2025-03-31 00:53:26,662 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:53:27,955 -  * Restarting with stat
+2025-03-31 00:53:47,728 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 00:53:47,729 - [33mPress CTRL+C to quit[0m
+2025-03-31 00:53:47,731 -  * Restarting with stat
+2025-03-31 00:54:00,262 -  * Debugger is active!
+2025-03-31 00:54:00,332 -  * Debugger PIN: 524-040-664
+2025-03-31 00:54:05,451 - 127.0.0.1 - - [31/Mar/2025 00:54:05] "GET / HTTP/1.1" 200 -
+2025-03-31 00:55:17,125 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:55:17,795 -  * Restarting with stat
+2025-03-31 00:55:31,477 -  * Debugger is active!
+2025-03-31 00:55:31,647 -  * Debugger PIN: 524-040-664
+2025-03-31 00:55:32,760 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 00:55:33,449 -  * Restarting with stat
+2025-03-31 00:55:46,650 -  * Debugger is active!
+2025-03-31 00:55:46,709 -  * Debugger PIN: 524-040-664
+2025-03-31 00:55:46,760 - 127.0.0.1 - - [31/Mar/2025 00:55:46] "GET / HTTP/1.1" 200 -
+2025-03-31 00:55:46,764 - 127.0.0.1 - - [31/Mar/2025 00:55:46] "GET / HTTP/1.1" 200 -
+2025-03-31 00:55:46,767 - 127.0.0.1 - - [31/Mar/2025 00:55:46] "GET / HTTP/1.1" 200 -
+2025-03-31 16:21:25,723 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 16:21:25,724 - [33mPress CTRL+C to quit[0m
+2025-03-31 16:21:25,726 -  * Restarting with stat
+2025-03-31 16:21:38,612 -  * Debugger is active!
+2025-03-31 16:21:38,809 -  * Debugger PIN: 326-019-676
+2025-03-31 16:21:58,893 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-03-31 16:21:58,895 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-03-31 16:21:58,916 - RF Proba:           0         1
+0  0.958175  0.041825, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.04182463511824608
+2025-03-31 16:21:58,917 - 127.0.0.1 - - [31/Mar/2025 16:21:58] "POST /predict HTTP/1.1" 200 -
+2025-03-31 16:23:04,337 - Raw features: {'Flow Duration': 300000.0, 'Total Fwd Packets': 300.0, 'Total Backward Packets': 400.0, 'Fwd Packet Length Mean': 400.0, 'Bwd Packet Length Mean': 500.0, 'Flow Bytes/s': 15000.0, 'Flow Packets/s': 150.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 25.0, 'ACK Flag Count': 30.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-03-31 16:23:04,338 - Scaled features: [[-4.3070185e-01  3.8748091e-01  3.9041844e-01  1.8356214e+00
+   3.1997883e-01 -5.6927931e-02 -2.7790862e-01  4.5336084e+00
+   0.0000000e+00  1.1863400e+02  6.3887341e+01  6.5027490e+00
+   9.0931845e-01]]
+2025-03-31 16:23:04,345 - RF Proba:           0         1
+0  0.907177  0.092823, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.09282317757606506
+2025-03-31 16:23:04,346 - 127.0.0.1 - - [31/Mar/2025 16:23:04] "POST /predict HTTP/1.1" 200 -
+2025-03-31 16:26:12,537 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 5.0, 'Packet Length Mean': 15000.0}
+2025-03-31 16:26:12,538 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  1.6742382e+01
+   4.8520813e+01]]
+2025-03-31 16:26:12,545 - RF Proba:           0         1
+0  0.808577  0.191423, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.1914229691028595
+2025-03-31 16:26:12,546 - 127.0.0.1 - - [31/Mar/2025 16:26:12] "POST /predict HTTP/1.1" 200 -
+2025-03-31 16:26:55,860 - Raw features: {'Flow Duration': 1000.0, 'Total Fwd Packets': 2.0, 'Total Backward Packets': 3.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 75.0, 'Flow Bytes/s': 100.0, 'Flow Packets/s': 10.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 1.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 60.0}
+2025-03-31 16:26:55,861 - Scaled features: [[-0.43958282 -0.00982461 -0.00741959 -0.04434727 -0.38193733 -0.05750233
+  -0.27845892 -0.22057486  0.          4.5336084   1.4735787  -0.323673
+  -0.3668659 ]]
+2025-03-31 16:26:55,872 - RF Proba:           0         1
+0  0.991638  0.008362, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.00836196169257164
+2025-03-31 16:26:55,873 - 127.0.0.1 - - [31/Mar/2025 16:26:55] "POST /predict HTTP/1.1" 200 -
+2025-03-31 16:46:04,349 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:46:06,118 -  * Restarting with stat
+2025-03-31 16:46:33,528 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 16:46:33,528 - [33mPress CTRL+C to quit[0m
+2025-03-31 16:46:33,530 -  * Restarting with stat
+2025-03-31 16:46:44,208 -  * Debugger is active!
+2025-03-31 16:46:44,295 -  * Debugger PIN: 326-019-676
+2025-03-31 16:48:54,832 - 127.0.0.1 - - [31/Mar/2025 16:48:54] "GET / HTTP/1.1" 200 -
+2025-03-31 16:48:55,036 - 127.0.0.1 - - [31/Mar/2025 16:48:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-31 16:52:09,576 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:52:11,212 -  * Restarting with stat
+2025-03-31 16:52:31,035 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 16:52:31,035 - [33mPress CTRL+C to quit[0m
+2025-03-31 16:52:31,036 -  * Restarting with stat
+2025-03-31 16:52:41,938 -  * Debugger is active!
+2025-03-31 16:52:42,017 -  * Debugger PIN: 326-019-676
+2025-03-31 16:52:51,936 - 127.0.0.1 - - [31/Mar/2025 16:52:51] "GET / HTTP/1.1" 200 -
+2025-03-31 16:52:53,087 - 127.0.0.1 - - [31/Mar/2025 16:52:53] "GET / HTTP/1.1" 200 -
+2025-03-31 16:55:14,192 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:55:15,938 -  * Restarting with stat
+2025-03-31 16:55:39,366 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 16:55:39,367 - [33mPress CTRL+C to quit[0m
+2025-03-31 16:55:39,368 -  * Restarting with stat
+2025-03-31 16:55:52,324 -  * Debugger is active!
+2025-03-31 16:55:52,394 -  * Debugger PIN: 326-019-676
+2025-03-31 16:56:26,187 - 127.0.0.1 - - [31/Mar/2025 16:56:26] "GET / HTTP/1.1" 200 -
+2025-03-31 16:57:53,352 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:57:54,796 -  * Restarting with stat
+2025-03-31 16:58:22,883 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 16:58:22,884 - [33mPress CTRL+C to quit[0m
+2025-03-31 16:58:22,885 -  * Restarting with stat
+2025-03-31 16:58:34,092 -  * Debugger is active!
+2025-03-31 16:58:34,287 -  * Debugger PIN: 326-019-676
+2025-03-31 16:58:36,385 - 127.0.0.1 - - [31/Mar/2025 16:58:36] "GET / HTTP/1.1" 200 -
+2025-03-31 16:58:57,323 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:58:58,007 -  * Restarting with stat
+2025-03-31 16:59:12,074 -  * Debugger is active!
+2025-03-31 16:59:12,129 -  * Debugger PIN: 326-019-676
+2025-03-31 16:59:24,419 - 127.0.0.1 - - [31/Mar/2025 16:59:24] "GET / HTTP/1.1" 200 -
+2025-03-31 16:59:25,046 - 127.0.0.1 - - [31/Mar/2025 16:59:25] "GET / HTTP/1.1" 200 -
+2025-03-31 16:59:53,808 -  * Detected change in '/mnt/c/atd/atd.py', reloading
+2025-03-31 16:59:54,485 -  * Restarting with stat
+2025-03-31 17:00:04,966 -  * Debugger is active!
+2025-03-31 17:00:05,021 -  * Debugger PIN: 326-019-676
+2025-03-31 17:00:12,563 - 127.0.0.1 - - [31/Mar/2025 17:00:12] "GET / HTTP/1.1" 200 -
+2025-03-31 17:00:14,196 - 127.0.0.1 - - [31/Mar/2025 17:00:14] "GET / HTTP/1.1" 200 -
+2025-03-31 17:04:38,737 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-03-31 17:04:38,737 - [33mPress CTRL+C to quit[0m
+2025-03-31 17:04:38,739 -  * Restarting with stat
+2025-03-31 17:04:49,557 -  * Debugger is active!
+2025-03-31 17:04:49,756 -  * Debugger PIN: 116-270-178
+2025-03-31 17:05:03,848 - 127.0.0.1 - - [31/Mar/2025 17:05:03] "GET / HTTP/1.1" 200 -
+2025-03-31 17:08:22,899 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-03-31 17:08:22,900 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-03-31 17:08:22,918 - RF Proba:           0         1
+0  0.958175  0.041825, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.04182463511824608
+2025-03-31 17:08:22,919 - 127.0.0.1 - - [31/Mar/2025 17:08:22] "POST /predict HTTP/1.1" 200 -
+2025-03-31 17:09:35,461 - Raw features: {'Flow Duration': 300000.0, 'Total Fwd Packets': 300.0, 'Total Backward Packets': 400.0, 'Fwd Packet Length Mean': 400.0, 'Bwd Packet Length Mean': 500.0, 'Flow Bytes/s': 15000.0, 'Flow Packets/s': 150.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 25.0, 'ACK Flag Count': 30.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-03-31 17:09:35,462 - Scaled features: [[-4.3070185e-01  3.8748091e-01  3.9041844e-01  1.8356214e+00
+   3.1997883e-01 -5.6927931e-02 -2.7790862e-01  4.5336084e+00
+   0.0000000e+00  1.1863400e+02  6.3887341e+01  6.5027490e+00
+   9.0931845e-01]]
+2025-03-31 17:09:35,472 - RF Proba:           0         1
+0  0.907177  0.092823, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.09282317757606506
+2025-03-31 17:09:35,473 - 127.0.0.1 - - [31/Mar/2025 17:09:35] "POST /predict HTTP/1.1" 200 -
+2025-03-31 17:10:37,222 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 5.0, 'Packet Length Mean': 15000.0}
+2025-03-31 17:10:37,223 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  1.6742382e+01
+   4.8520813e+01]]
+2025-03-31 17:10:37,230 - RF Proba:           0         1
+0  0.808577  0.191423, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.1914229691028595
+2025-03-31 17:10:37,231 - 127.0.0.1 - - [31/Mar/2025 17:10:37] "POST /predict HTTP/1.1" 200 -
+2025-03-31 17:11:25,356 - Raw features: {'Flow Duration': 1000.0, 'Total Fwd Packets': 2.0, 'Total Backward Packets': 3.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 75.0, 'Flow Bytes/s': 100.0, 'Flow Packets/s': 10.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 1.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 60.0}
+2025-03-31 17:11:25,357 - Scaled features: [[-0.43958282 -0.00982461 -0.00741959 -0.04434727 -0.38193733 -0.05750233
+  -0.27845892 -0.22057486  0.          4.5336084   1.4735787  -0.323673
+  -0.3668659 ]]
+2025-03-31 17:11:25,364 - RF Proba:           0         1
+0  0.991638  0.008362, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.00836196169257164
+2025-03-31 17:11:25,364 - 127.0.0.1 - - [31/Mar/2025 17:11:25] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:37:19,414 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-04-22 15:37:19,415 - [33mPress CTRL+C to quit[0m
+2025-04-22 15:37:19,417 -  * Restarting with stat
+2025-04-22 15:37:30,397 -  * Debugger is active!
+2025-04-22 15:37:30,604 -  * Debugger PIN: 954-756-527
+2025-04-22 15:38:28,275 - 127.0.0.1 - - [22/Apr/2025 15:38:28] "GET / HTTP/1.1" 200 -
+2025-04-22 15:38:28,631 - 127.0.0.1 - - [22/Apr/2025 15:38:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 15:40:32,182 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-04-22 15:40:32,183 - [33mPress CTRL+C to quit[0m
+2025-04-22 15:40:32,185 -  * Restarting with stat
+2025-04-22 15:42:14,925 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.240.76:5000
+2025-04-22 15:42:14,925 - [33mPress CTRL+C to quit[0m
+2025-04-22 15:42:14,927 -  * Restarting with stat
+2025-04-22 15:42:25,170 -  * Debugger is active!
+2025-04-22 15:42:25,493 -  * Debugger PIN: 267-366-253
+2025-04-22 15:42:44,929 - 127.0.0.1 - - [22/Apr/2025 15:42:44] "GET / HTTP/1.1" 200 -
+2025-04-22 15:42:45,479 - 127.0.0.1 - - [22/Apr/2025 15:42:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 15:43:40,066 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-04-22 15:43:40,068 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-04-22 15:43:40,085 - RF Proba:           0         1
+0  0.958175  0.041825, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.04182463511824608
+2025-04-22 15:43:40,086 - 127.0.0.1 - - [22/Apr/2025 15:43:40] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:44:28,683 - Raw features: {'Flow Duration': 300000.0, 'Total Fwd Packets': 300.0, 'Total Backward Packets': 400.0, 'Fwd Packet Length Mean': 400.0, 'Bwd Packet Length Mean': 500.0, 'Flow Bytes/s': 15000.0, 'Flow Packets/s': 150.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 25.0, 'ACK Flag Count': 30.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-04-22 15:44:28,683 - Scaled features: [[-4.3070185e-01  3.8748091e-01  3.9041844e-01  1.8356214e+00
+   3.1997883e-01 -5.6927931e-02 -2.7790862e-01  4.5336084e+00
+   0.0000000e+00  1.1863400e+02  6.3887341e+01  6.5027490e+00
+   9.0931845e-01]]
+2025-04-22 15:44:28,691 - RF Proba:           0         1
+0  0.907177  0.092823, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.09282317757606506
+2025-04-22 15:44:28,692 - 127.0.0.1 - - [22/Apr/2025 15:44:28] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:45:13,481 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 5.0, 'Packet Length Mean': 15000.0}
+2025-04-22 15:45:13,482 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  1.6742382e+01
+   4.8520813e+01]]
+2025-04-22 15:45:13,488 - RF Proba:           0         1
+0  0.808577  0.191423, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.1914229691028595
+2025-04-22 15:45:13,489 - 127.0.0.1 - - [22/Apr/2025 15:45:13] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:45:44,293 - Raw features: {'Flow Duration': 1000.0, 'Total Fwd Packets': 2.0, 'Total Backward Packets': 3.0, 'Fwd Packet Length Mean': 50.0, 'Bwd Packet Length Mean': 75.0, 'Flow Bytes/s': 100.0, 'Flow Packets/s': 10.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 1.0, 'ACK Flag Count': 1.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 60.0}
+2025-04-22 15:45:44,293 - Scaled features: [[-0.43958282 -0.00982461 -0.00741959 -0.04434727 -0.38193733 -0.05750233
+  -0.27845892 -0.22057486  0.          4.5336084   1.4735787  -0.323673
+  -0.3668659 ]]
+2025-04-22 15:45:44,299 - RF Proba:           0         1
+0  0.991638  0.008362, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.00836196169257164
+2025-04-22 15:45:44,300 - 127.0.0.1 - - [22/Apr/2025 15:45:44] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:48:45,018 - Raw features: {'Flow Duration': 99999999.0, 'Total Fwd Packets': 5000.0, 'Total Backward Packets': 7000.0, 'Fwd Packet Length Mean': 10000.0, 'Bwd Packet Length Mean': 20000.0, 'Flow Bytes/s': 1000000.0, 'Flow Packets/s': 5000.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 1.0, 'SYN Flag Count': 10.0, 'ACK Flag Count': 20.0, 'URG Flag Count': 5.0, 'Packet Length Mean': 15000.0}
+2025-04-22 15:48:45,019 - Scaled features: [[ 2.5306110e+00  6.6537085e+00  7.0043507e+00  5.3400478e+01
+   3.2525543e+01 -1.8955905e-02 -2.5884533e-01  4.5336084e+00
+   1.0000000e+00  4.7321255e+01  4.2365353e+01  1.6742382e+01
+   4.8520813e+01]]
+2025-04-22 15:48:45,033 - RF Proba:           0         1
+0  0.808577  0.191423, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.1914229691028595
+2025-04-22 15:48:45,034 - 127.0.0.1 - - [22/Apr/2025 15:48:45] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:49:18,590 - Raw features: {'Flow Duration': 300000.0, 'Total Fwd Packets': 300.0, 'Total Backward Packets': 400.0, 'Fwd Packet Length Mean': 400.0, 'Bwd Packet Length Mean': 500.0, 'Flow Bytes/s': 15000.0, 'Flow Packets/s': 150.0, 'Fwd PSH Flags': 1.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 25.0, 'ACK Flag Count': 30.0, 'URG Flag Count': 2.0, 'Packet Length Mean': 450.0}
+2025-04-22 15:49:18,591 - Scaled features: [[-4.3070185e-01  3.8748091e-01  3.9041844e-01  1.8356214e+00
+   3.1997883e-01 -5.6927931e-02 -2.7790862e-01  4.5336084e+00
+   0.0000000e+00  1.1863400e+02  6.3887341e+01  6.5027490e+00
+   9.0931845e-01]]
+2025-04-22 15:49:18,597 - RF Proba:           0         1
+0  0.907177  0.092823, Prediction: 1, Result: iso=malicious, rf=anomaly, confidence=0.09282317757606506
+2025-04-22 15:49:18,597 - 127.0.0.1 - - [22/Apr/2025 15:49:18] "POST /predict HTTP/1.1" 200 -
+2025-04-22 15:49:47,897 - Raw features: {'Flow Duration': 20000.0, 'Total Fwd Packets': 10.0, 'Total Backward Packets': 15.0, 'Fwd Packet Length Mean': 150.0, 'Bwd Packet Length Mean': 250.0, 'Flow Bytes/s': 2000.0, 'Flow Packets/s': 75.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'SYN Flag Count': 0.0, 'ACK Flag Count': 5.0, 'URG Flag Count': 0.0, 'Packet Length Mean': 200.0}
+2025-04-22 15:49:47,897 - Scaled features: [[-4.3901849e-01  8.4131217e-04  4.6057436e-03  4.9278665e-01
+  -9.2913024e-02 -5.7429083e-02 -2.7820343e-01 -2.2057486e-01
+   0.0000000e+00 -2.2057486e-01  1.0082374e+01 -3.2367301e-01
+   9.1251552e-02]]
+2025-04-22 15:49:47,903 - RF Proba:           0         1
+0  0.958175  0.041825, Prediction: 0, Result: iso=benign, rf=normal, confidence=0.04182463511824608
+2025-04-22 15:49:47,904 - 127.0.0.1 - - [22/Apr/2025 15:49:47] "POST /predict HTTP/1.1" 200 -

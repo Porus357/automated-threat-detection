@@ -1,0 +1,9 @@
+flask
+scikit-learn
+cuml
+imblearn
+cudf
+pandas
+numpy
+wsl 
+Ubuntu
